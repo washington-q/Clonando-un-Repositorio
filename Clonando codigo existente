@@ -1,0 +1,38 @@
+git clone URL [https://github.com/washington-q/Practica3-2.git]
+
+cd ~/proyectos/
+git clone https://github.com/jquery/jquery.git 
+
+ls 
+
+jquery
+
+ls jquery -la
+
+AUTHORS.txt
+bower.json
+.bowerrc
+build
+CONTRIBUTING.md
+.editorconfig
+.git
+.gitattributes
+.gitignore
+Gruntfile.js
+.jscs.json
+.jshintignore
+.jshintrc
+.mailmap
+MIT-LICENSE.txt
+.npmignore
+package.json
+README.md
+src
+test
+.travis.yml
+
+cd jquery
+git log
+
+git log --format='%Cred%h%Creset -%C(yellow)%d%Creset %s
+%Cgreen(%cr)' --abbrev-commit --date=relative -10
